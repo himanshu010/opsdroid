@@ -8,7 +8,6 @@ from opsdroid.cli.start import configure_lang
 from opsdroid.core import OpsDroid
 from opsdroid.connector import Connector, register_event
 from opsdroid.events import Event, Message, Reaction
-from opsdroid.cli.start import configure_lang
 
 
 class TestConnectorBaseClass(unittest.TestCase):
